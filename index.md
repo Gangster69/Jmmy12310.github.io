@@ -8,7 +8,7 @@
 	     }
     </style>
 
-  <HEAD>
+  </HEAD>
     <BODY style="background-color =#8C0044">
       <div class ="head">JMMY'S BLOG</div>
       

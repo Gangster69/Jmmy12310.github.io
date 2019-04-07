@@ -33,6 +33,9 @@
     <BODY class=body>
       <div class ="head">JMMY'S BLOG</div>
 	    <center>
+		    <font color="red"><marquee behavior="ALTERNATE">請支持正版，從NETFLIX開始</marquee></font>
+		<br>
+		    <br>	
 	    <p class="firsttext">
 		    	套裝
 		    	題材：末日、機器人、外星人<br>
@@ -73,6 +76,19 @@
 	     <form>
 		<input type="button" name="submit" value="送出" onclick="alert(&quot;還等什麼?快去看吧!!!!!&quot;)">
 	     </form>
+		    <script language="JavaScript">
+			 function ShowTime(){
+　			var NowDate=new Date();
+　			var h=NowDate.getHours();
+　			var m=NowDate.getMinutes();
+　			var s=NowDate.getSeconds();　
+　			document.getElementById('showbox').innerHTML = h+'時'+m+'分'+s+'秒';
+　			setTimeout('ShowTime()',1000);
+		    }
+		</script>
+		<body onload="ShowTime()">
+		<div id="showbox"></div>
+		</body>
 	     </center>
       <div class="contact">
 		<div class="box">
